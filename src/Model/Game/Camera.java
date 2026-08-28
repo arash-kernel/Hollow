@@ -140,6 +140,7 @@ public class Camera extends Entity {
 	public void paint(Graphics g) {
 		
 	}
+
 	public void setBoundsList(ArrayList<CameraBoundingBox> boundsList) {
 		this.boundsList = boundsList;
 	}
