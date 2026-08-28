@@ -22,3 +22,8 @@ Technical Details: I used lerp for the camera and some other sections you can ch
 Not much else to talk about. The game has semi-good humor too, I guess.
 
 Enjoy!
+
+PS: check the end menu music its fire
+PSPS: no libgdx used costume sprite rendering used instead 
+PSPSPS: (the game lags a bit if you stay in a room for too long i dont know what causes the lag but it can be reduced by changing tick progress logic(we do task then wait 16 ms instead we could do the update then see how much time we should wait so if update takes 8ms we wait 8ms instead of 16 causing the game too run smoothly up to some amount of lag))
+PSPSPSPS: i think all these PSs are attracting cats
