@@ -9,9 +9,7 @@ public class Camera extends Entity {
 	private CameraBoundingBox currentBox = null;
 	private double viewportWidth;
 	private double viewportHeight;
-	private boolean isFirstFrame = true; 
-
-	
+	private boolean isFirstFrame = true;
 	private int shakeRemaining = 0;
 	private int shakeIntensity = 0;
 	private double currentShakeX = 0;
@@ -142,8 +140,10 @@ public class Camera extends Entity {
 	public void paint(Graphics g) {
 		
 	}
+	public void setBoundsList(ArrayList<CameraBoundingBox> boundsList) {
+		this.boundsList = boundsList;
+	}
 
-	
 	public int getOffsetX() { return (int) (position.x + currentShakeX); }
 	public int getOffsetY() { return (int) (position.y + currentShakeY); }
 }

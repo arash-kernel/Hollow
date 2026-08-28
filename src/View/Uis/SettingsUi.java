@@ -18,7 +18,7 @@ public class SettingsUi {
 	private final String[] menuOptions = {"MUSIC", "SOUND", "BRIGHTNESS", "REMAPPING", "LANGUAGE", "THEME", "BACK"};
 
 	// NEW: Available themes pool matching your loaded animations
-	private static final String[] THEMES = {"EDP", "Crystal Peak", "Green Path", "Is This A Hazbin Hotel","S!LK S0NG"};
+	private static final String[] THEMES = {"S!LK S0NG","Crystal Peak", "Green Path", "Is This A Hazbin Hotel"};
 
 	private int screenWidth = 1920;
 	private int screenHeight = 1080;

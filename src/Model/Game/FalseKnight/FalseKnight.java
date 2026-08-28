@@ -5,12 +5,10 @@ import Model.Game.*;
 import Model.Game.Enemies.GettingHit;
 import View.Animations;
 import Model.Game.Knight.Knight;
+import View.MyPanel;
 
 import java.awt.*;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class FalseKnight extends Entity implements GettingHit {
 	private LinkedList<String> moveHistory = new LinkedList<>();
@@ -104,6 +102,9 @@ public class FalseKnight extends Entity implements GettingHit {
 		if(((room.getKnight().getPosition().x-position.x)*(room.getKnight().getPosition().x-position.x)+(room.getKnight().getPosition().y-position.y)*(room.getKnight().getPosition().y-position.y))<(1000)*(1000)&&state.equalsIgnoreCase("dormant")){
 			state="idle";
 			room.song = "False Knight.wav";
+			ArrayList<CameraBoundingBox> lol=new ArrayList<>();
+			lol.add(new CameraBoundingBox(2400,0,1600,880));
+			MyPanel.camera.setBoundsList(lol);
 		}
 		if (isDeadCountingDown && !hasGoneToVictory) {
 			deathCountdownTimer++;

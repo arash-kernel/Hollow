@@ -1,5 +1,5 @@
 #Hollow Knight Clone - Global Settings & Achievements
-#Sat Aug 08 18:21:12 GMT+03:30 2026
+#Fri Aug 28 13:03:36 GMT+03:30 2026
 Key_Attack=74
 Key_Dash=75
 Key_Down=83
@@ -13,7 +13,7 @@ Key_Right=68
 Key_Up=87
 brightness=1.0
 completion=true
-currentTheme=Crystal Peak
+currentTheme=Is This A Hazbin Hotel
 defeatFalseKnight=true
 emergencyHeal=false
 godMode=true

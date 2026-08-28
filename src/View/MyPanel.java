@@ -13,7 +13,7 @@ import java.awt.*;
 public class MyPanel extends JPanel {
 	Room room;
 	Ui ui;
-	public Camera camera;
+	public static Camera camera;
 
 	public MyPanel(Room room){
 		this.room = room;

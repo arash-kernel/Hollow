@@ -39,7 +39,6 @@ public class MainMenuUi {
 		// 2. Pre-load assets safely
 		try {
 			menuAnimations.addAnimation("Idle2", "src/Model/Game/DialogueBoxAnimations/");
-			menuAnimations.addAnimation("EDP", "src/View/BackGrounds/");
 			menuAnimations.addAnimation("Crystal Peak", "src/View/BackGrounds/");
 			menuAnimations.addAnimation("Green Path", "src/View/BackGrounds/");
 			menuAnimations.addAnimation("Is This A Hazbin Hotel", "src/View/BackGrounds/");
