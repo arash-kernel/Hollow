@@ -1,0 +1,83 @@
+//file path= src/Model/Maps
+
+// ==========================================
+// VERTICAL WALLS (Drawn First)
+// ==========================================
+
+// Outer Map Left Wall (Bottom to Top -> Right side points East/Inside)
+Boundary 58 0 58 886
+
+// Outer Map Right Wall (Top to Bottom -> Right side points West/Inside)
+Boundary 4000 886 4000 0
+
+
+// Outer Map Ceiling (Left to Right -> Right side points South/Inside)
+Boundary 4000 45 0 45
+
+// Outer Map Floor (Right to Left -> Right side points North/Inside)
+Boundary 0 860 4000 860
+
+
+Box 0 505 660 58
+Box 600 505 60 122
+Box 1030 280 108 108
+CrystalHunter 1080 230
+Crystallized 1080 630
+
+Box 1325 0 50 685
+Box 1548 220 50 800
+
+Hazard 1598 800 false
+Hazard 1898 800 false
+Hazard 2038 800 false
+
+Box 2376 220 50 800
+
+$
+2476 600 false false
+& 
+0 i am bote
+3 zote's brother
+5 together we are : <drumrollplease> zotebote
+&
+2 did you find my brother in his cave ?
+3 if not go look for him 
+&
+0 find my brother he has a gift for you
+$
+
+Box 2576 0 50 685
+
+Box 1805 0 282 450
+Box 1920 576 110 100
+CrystalHunter 1970 500
+
+$
+200 600 true false
+& 
+0 what is up my guy
+3 take this gift
+&
+6 its a kool rock i found
+1 some guy told me it unites the void or whatever
+&
+2 i think you should have it
+&
+4 now scram
+$
+
+SecretDoor -15 565
+
+Lamp 300 300
+Lamp 200 300
+
+FalseKnight 3700 400
+
+$
+3800 600 false true
+& 
+0 what is up my guy
+3 im doing more sansing ik
+&
+6 if you wanna visit greenpath talk to me again
+$

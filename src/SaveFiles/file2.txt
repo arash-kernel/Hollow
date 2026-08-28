@@ -1,0 +1,16 @@
+#Hollow Knight Clone - Save File Data
+#Sat Aug 08 18:19:45 GMT+03:30 2026
+currentCharms=
+deathCount=0
+id=2
+killedBoss=false
+killedCrawler=true
+killedFly=true
+killedHorn=true
+killedHunter=false
+killedLaser=false
+killedMoss=true
+nameOfLevel=Crystal Peak
+time=2894
+totalEnemyKilled=7
+voidHeart=false

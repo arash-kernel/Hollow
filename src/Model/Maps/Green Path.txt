@@ -1,0 +1,105 @@
+//file path= src/Model/Maps
+
+// ==========================================
+// VERTICAL WALLS (Drawn First)
+// ==========================================
+
+Boundary 60 0 60 886
+
+Turn 160 720 20 200 true
+
+Boundary 4000 886 4000 0
+
+Turn 3980 720 20 200 false
+
+
+// ==========================================
+// HORIZONTAL WALLS (Drawn Second)
+// ==========================================
+
+// Outer Map Ceiling
+Boundary 4000 20 0 20
+
+// Outer Map Floor
+Boundary 0 840 4000 840
+
+
+//left platform
+Box 320 500 640 140 
+Turn 320 400 20 100 true
+Turn 940 400 20 100 false
+
+//middle platform
+Box 1770 500 590 140 
+Turn 1770 400 20 100 true
+Turn 2340 400 20 100 false
+
+MossFly 2150 500
+MossFly 1950 500
+MossFly 2050 500
+
+
+//right platform
+Box 3090 470 580 90 
+Turn 3090 400 20 100 true
+Turn 3650 400 20 100 false
+
+MossCreep 3150 400
+CrystalCrawler 3250 400
+MossCreep 3350 400
+
+//right wall
+Box 2570 240 60 800
+
+Turn 2630 720 20 200 true
+//left wall
+Box 1110 240 70 800
+
+Turn 970 720 20 200 false
+
+//middle wall
+Box 1490 240 70 800
+
+
+//top wall
+Box 1320 -240 70 880
+
+Hazard 1565 740 true
+Hazard 1895 740 true
+Hazard 2225 740 true
+
+Lamp 500 450
+Lamp 600 450
+
+$
+500 400 false false
+&
+0 hello young adventurer
+1 you must slay the false knight and free us all !!!
+2 be wary of the thorns along the way
+&
+0 quickly before we all perish
+&
+3 find me in my secret cave for a boost
+&
+4 off with you
+$
+
+
+$
+3150 700 false true
+&
+0 how am i here and there?
+1 i took a page from sans' book
+2 neat stuff i tell ya
+&
+0 i will show you the way to the crystal peak
+2 thats where you'll have to fight for us all
+&
+3 talk to me when you wish to travel to the crystal peak
+
+$
+
+HornedHusk 600 600
+
+

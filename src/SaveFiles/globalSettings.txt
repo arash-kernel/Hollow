@@ -1,0 +1,33 @@
+#Hollow Knight Clone - Global Settings & Achievements
+#Sat Aug 08 18:21:12 GMT+03:30 2026
+Key_Attack=74
+Key_Dash=75
+Key_Down=83
+Key_Focus=17
+Key_Inventory=73
+Key_Jump=32
+Key_Left=65
+Key_Pause=27
+Key_QuickCast=70
+Key_Right=68
+Key_Up=87
+brightness=1.0
+completion=true
+currentTheme=Crystal Peak
+defeatFalseKnight=true
+emergencyHeal=false
+godMode=true
+infiniteCharms=true
+isMuted=false
+musicVolume=1.0
+noClip=false
+sfxVolume=1.0
+showHitbox=true
+shownCompletion=true
+shownDefeatFalseKnight=true
+shownSpeedrun=true
+shownTalkToZote=true
+shownTrueHunter=true
+speedrun=true
+talkToZote=true
+trueHunter=true

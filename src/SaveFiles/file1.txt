@@ -1,0 +1,16 @@
+#Hollow Knight Clone - Save File Data
+#Wed Jul 15 14:14:25 GMT+03:30 2026
+currentCharms=UNBREAKABLE_STRENGTH,QUICK_SLASH,VOID_HEART
+deathCount=0
+id=1
+killedBoss=false
+killedCrawler=true
+killedFly=true
+killedHorn=true
+killedHunter=true
+killedLaser=true
+killedMoss=true
+nameOfLevel=Crystal Peak
+time=13730
+totalEnemyKilled=10
+voidHeart=true
